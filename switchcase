@@ -1,0 +1,20 @@
+echo "Hi Switch Case Example Program"
+echo "Please choose below any option:"
+echo "one"
+echo "2"
+echo "india"
+echo "cricket"
+echo "exit"
+read option
+case $option in
+One)   echo "you have typed one";;
+
+2)     echo "you have typed two";;
+india) echo "India is a country"
+       echo "so many language are there in india";;
+cricket) echo "rohit sharma is a Cricketer";;
+exit) ;;
+*)
+       echo "Please choose correct option"
+esac
+
